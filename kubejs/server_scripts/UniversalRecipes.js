@@ -21,6 +21,11 @@ ServerEvents.recipes(event => {
         event.remove({ output: 'patchouli:guide_book', type: 'minecraft:crafting_shapeless' })
         event.remove({ output: 'born_in_chaos_v1:dark_metal_nugget', type: 'minecraft:crafting_shapeless' })
 
+        event.remove({ output: 'minecraft:chainmail_helmet', type: 'minecraft:crafting_shaped' })
+        event.remove({ output: 'minecraft:chainmail_chestplate', type: 'minecraft:crafting_shaped' })
+        event.remove({ output: 'minecraft:chainmail_leggings', type: 'minecraft:crafting_shaped' })
+        event.remove({ output: 'minecraft:chainmail_boots', type: 'minecraft:crafting_shaped' })
+
         event.shapeless(
                 Item.of('patchouli:guide_book', '{"patchouli:book":"via_romana:guide"}'),
                 [

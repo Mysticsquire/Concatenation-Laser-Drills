@@ -776,6 +776,8 @@
 			description: [
 				"If you happen to find many tarot cards like I do, you can store them in the Tarot Deck and still retain every effect with them inside."
 				""
+				"Applying a soulbound enchantment to a tarot deck will prove very useful. If you ever happen to lose it."
+				""
 				"{@pagebreak}"
 				"However, the minor arcana hands do not grant you extra hearts while they're inside of the Tarot Deck, despite being able to fit them inside. What a shame."
 			]
@@ -879,6 +881,7 @@
 				"Either the small hull or the train car is the start to a logistics system common to both holders of the Hierophant card and Hermit card."
 			]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "1D9002F6E0272ABC"
 			min_required_dependencies: 1
 			rewards: [{
@@ -15069,6 +15072,7 @@
 		}
 		{
 			dependencies: ["662F8F7426A07A9D"]
+			hide_until_deps_complete: true
 			id: "137E5079D198BF5C"
 			tasks: [{
 				id: "4439131F8691DB5B"
@@ -15628,6 +15632,7 @@
 			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
 			hide_dependent_lines: true
+			hide_until_deps_complete: true
 			id: "4E4E81226BED0E7C"
 			rewards: [{
 				id: "1BF473F4724D7AFF"
@@ -15656,6 +15661,7 @@
 			]
 			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "0D61335A0B07300D"
 			rewards: [
 				{
@@ -17274,6 +17280,7 @@
 		}
 		{
 			dependencies: ["344B314D434D12C1"]
+			description: ["Refined glowstone is considered a holy material."]
 			id: "648919584EBC4E4D"
 			tasks: [
 				{
@@ -17530,6 +17537,7 @@
 				"2157576FC7005917"
 			]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "679D7B535BE7E8B2"
 			rewards: [{
 				id: "4F1FA52B077C21EB"
@@ -18595,7 +18603,11 @@
 		}
 		{
 			dependencies: ["0D70725FEAF0DC7B"]
-			description: ["Dark metal is an alluring substance, but some demiurge has altered reality to require a dull, grey abomination in its stead."]
+			description: [
+				"Dark metal is made after smelting pieces of dark metal most commonly obtained in this age by defeating chaos creatures."
+				""
+				"A dense multi-layered ingot: the dense alloy can be made from dark metal to craft powerful tools and armour. Only parts of the dark alloy are required each time in the crafting process."
+			]
 			id: "369EB408D49E5415"
 			rewards: [{
 				id: "53619EE65BE4FFF4"
@@ -18632,6 +18644,11 @@
 		}
 		{
 			dependencies: ["369EB408D49E5415"]
+			description: [
+				"The manufacturing process for these smithing templates has been lost to time. They can still be found within some stashes around the world and on the person of fallen chaos knights."
+				""
+				"It is far easier to duplicate this template than to make another one, requiring a netherite smithing template as a base."
+			]
 			id: "6E6759704F7023AB"
 			rewards: [{
 				id: "48AD06576EA0380F"
@@ -18648,6 +18665,7 @@
 		}
 		{
 			dependencies: ["6E6759704F7023AB"]
+			description: ["Dark metal armour is exceptionally durable, sports very impressive defensive prowess and provides resistance to withering while also triggering a rampage within the wearer when they are close to death."]
 			id: "074D1EAC06904845"
 			rewards: [{
 				id: "7BD829C5D37D330D"
@@ -18706,11 +18724,18 @@
 		}
 		{
 			dependencies: ["369EB408D49E5415"]
+			description: ["Monstrous hounds and the nightmare stalker naturally posses a durable and protective hide. This may prove to be useful to make armour."]
 			id: "3BDE972F9EB52CF5"
 			rewards: [{
-				id: "7D0BB53B6E2B4882"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "2761D279A08C8335"
+				item: {
+					Count: 1
+					id: "concatenationcore:dense_alloy"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
 			}]
 			tasks: [
 				{
@@ -18730,11 +18755,12 @@
 		}
 		{
 			dependencies: ["3BDE972F9EB52CF5"]
+			description: ["Nightmare armour sports the abilities of being faster in the dark, as well as increasing the power of nightmare weapons."]
 			id: "5309971BB143C533"
 			rewards: [{
-				id: "6D4EAA683D19E434"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "5CCE3684ED8F8457"
+				item: "reliquary:twilight_cloak"
+				type: "item"
 			}]
 			tasks: [
 				{
@@ -18788,6 +18814,11 @@
 		}
 		{
 			dependencies: ["369EB408D49E5415"]
+			description: [
+				"Dark metal weapons feature powerful strikes, impressive durability, and severe damage, but a lack of the more elaborate special abilities compared to nightmare weapons."
+				""
+				"All of these weapons have their strength enhanced when wearing a full dark metal set."
+			]
 			id: "30B2CAB9CBB2CD53"
 			rewards: [{
 				id: "5391AE7C1227682D"
@@ -18834,6 +18865,11 @@
 		}
 		{
 			dependencies: ["3BDE972F9EB52CF5"]
+			description: [
+				"Nightmare weapons feature weaker strikes compared to dark metal weapons but make up for it by being technically considered holy weapons. This status is quite puzzling, one theory that can be thought of being that these weapons are so unholy in nature, that they loop around to being holy. Or rather, they simply have the same property of being more effective on the undead."
+				""
+				"All of these weapons have their strength enhanced when wearing a full nightmare set."
+			]
 			id: "63F2A73E207912AD"
 			rewards: [{
 				id: "6D985542B0CBF2F6"
@@ -18887,13 +18923,34 @@
 		}
 		{
 			dependencies: ["0D70725FEAF0DC7B"]
+			description: [
+				"This staff makes use of an orb of summoning to act as a reagent for basic necromancy."
+				""
+				"The bonescaller staff can be used to summon two baby skeletons under the control of its summoner."
+			]
 			hide_dependency_lines: true
 			id: "2235C77100C1C31E"
-			rewards: [{
-				id: "62A4B8B1FBE01019"
-				item: "minecraft:wither_skeleton_skull"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "62A4B8B1FBE01019"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "2AF4BF8BC53EE3B5"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:mending"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "04881821449B5553"
 				item: {
@@ -19190,7 +19247,7 @@
 				item: "tconstruct:manyullyn_ingot"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.5d
 			y: 13.5d
 		}
 		{
@@ -21641,30 +21698,6 @@
 			y: 15.5d
 		}
 		{
-			dependencies: ["0964BD6C4413A9C9"]
-			hide_dependency_lines: true
-			id: "76A221ADEF9350D3"
-			rewards: [{
-				id: "3360DC1102D68C3F"
-				item: {
-					Count: 1
-					id: "mekanismtools:steel_chestplate"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "0B19066956CD5076"
-				item: "tconstruct:foundry_controller"
-				type: "item"
-			}]
-			title: "The Fantastic Foundry"
-			x: -2.0d
-			y: 13.5d
-		}
-		{
 			dependencies: ["4080496891426ACB"]
 			description: ["A ritual of binding can be used to acquire a familiar. One of these little guys will provide some benefits in exchange for a little mana capacity."]
 			hide_dependency_lines: true
@@ -21776,7 +21809,17 @@
 		}
 		{
 			dependencies: ["0D70725FEAF0DC7B"]
+			description: [
+				"The Eternal Candy is a fascinating food item, and the only one you would ever need for the rest of your life, as it is everlasting. The lollipop reforms itself as you eat it, granting a different effect with each bite."
+				""
+				"In the obtaining of this flavourful treat, fighting a Lord Pumpkinhead and his minions may be necessary to obtain the various different candies needed."
+			]
 			id: "7F019DF6C3668106"
+			rewards: [{
+				id: "0F2EC103652FA131"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "7A4E8C06B593D379"
 				item: "born_in_chaos_v1:eternal_candy"
