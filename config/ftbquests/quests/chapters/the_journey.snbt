@@ -10643,26 +10643,18 @@
 		{
 			dependencies: ["255F91EE26FB166D"]
 			description: ["An enhancement to the idea of a weapon that slices through the metaphysical, this blade will allow you to make use of the old art of dimensional doors. Beware, though, it seems the alternate plane these doors channel through has suffered some kind of damage since the old days... It's best if you stick to bridging locations outside of the eerie black void, unless you intend to banish people to limbo."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "3EA4408A8F86B825"
+			invisible: true
 			rewards: [{
 				id: "6F1CC98384BB487D"
 				item: "concatenationcore:woven_pearl"
 				type: "item"
 			}]
 			tasks: [{
-				id: "6E8E8BC2A87E5933"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "dimdoors:rift_blade"
-					tag: {
-						Damage: 0
-					}
-				}
+				id: "0921696421E8B6DA"
+				item: "concatenationcore:woven_pearl"
 				type: "item"
 			}]
 			x: 17.5d
@@ -10678,19 +10670,8 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "0E51A9E37759BAB4"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "dimdoors:rift_remover"
-					tag: {
-						Damage: 0
-					}
-				}
+				id: "2F27CCB78C503376"
+				item: "concatenationcore:woven_pearl"
 				type: "item"
 			}]
 			x: 16.0d
@@ -10705,40 +10686,11 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			tasks: [
-				{
-					id: "498E987A6F29781D"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "dimdoors:rift_signature"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2E80DF8848537ED6"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "dimdoors:stabilized_rift_signature"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2DF35B5D800E6DE1"
+				item: "concatenationcore:woven_pearl"
+				type: "item"
+			}]
 			x: 17.5d
 			y: -5.5d
 		}

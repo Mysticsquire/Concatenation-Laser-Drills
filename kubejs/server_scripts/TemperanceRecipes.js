@@ -21,11 +21,11 @@ ServerEvents.recipes(event => {
                 event.remove({ output: item })
         })
 
-        event.replaceInput(
-                { mod: 'dimdoors' },
-                'minecraft:ender_pearl',
-                'concatenationcore:woven_pearl'
-        )
+        // event.replaceInput(
+        //         { mod: 'dimdoors' },
+        //         'minecraft:ender_pearl',
+        //         'concatenationcore:woven_pearl'
+        // )
         event.replaceInput(
                 { mod: 'botanypots' },
                 'minecraft:flower_pot',
@@ -111,33 +111,33 @@ ServerEvents.recipes(event => {
                         '#concatenation:magic_cards_t2'
                 ]
         ).keepIngredient('#concatenation:magic_cards_t2')
-        event.shaped(
-                Item.of('dimdoors:rift_blade'),
-                [
-                        ' A ',
-                        'BCB',
-                        ' D '
-                ],
-                {
-                        C: 'bloodmagic:daggerofsacrifice',
-                        D: 'concatenationcore:nebulous_handle',
-                        B: 'minecraft:obsidian',
-                        A: 'minecraft:crying_obsidian'
-                }
-        )
-        event.shaped(
-                Item.of('concatenationcore:woven_pearl', 2),
-                [
-                        'AB ',
-                        ' C ',
-                        ' B '
-                ],
-                {
-                        C: 'minecraft:ender_pearl',
-                        A: 'dimdoors:rift_blade',
-                        B: 'minecraft:black_wool'
-                }
-        ).damageIngredient('dimdoors:rift_blade')
+        // event.shaped(
+        //         Item.of('dimdoors:rift_blade'),
+        //         [
+        //                 ' A ',
+        //                 'BCB',
+        //                 ' D '
+        //         ],
+        //         {
+        //                 C: 'bloodmagic:daggerofsacrifice',
+        //                 D: 'concatenationcore:nebulous_handle',
+        //                 B: 'minecraft:obsidian',
+        //                 A: 'minecraft:crying_obsidian'
+        //         }
+        // )
+        // event.shaped(
+        //         Item.of('concatenationcore:woven_pearl', 2),
+        //         [
+        //                 'AB ',
+        //                 ' C ',
+        //                 ' B '
+        //         ],
+        //         {
+        //                 C: 'minecraft:ender_pearl',
+        //                 A: 'dimdoors:rift_blade',
+        //                 B: 'minecraft:black_wool'
+        //         }
+        // ).damageIngredient('dimdoors:rift_blade')
         event.shaped(
                 Item.of('hexerei:witch_helmet'),
                 [
@@ -178,18 +178,18 @@ ServerEvents.recipes(event => {
                         'concatenationcore:descran'
                 ]
         )
-        event.shaped(
-                Item.of('dimdoors:rift_remover'),
-                [
-                        ' A ',
-                        'ABA',
-                        ' A '
-                ],
-                {
-                        B: 'reliquary:nebulous_heart',
-                        A: 'createmetallurgy:gold_dust'
-                }
-        )
+        // event.shaped(
+        //         Item.of('dimdoors:rift_remover'),
+        //         [
+        //                 ' A ',
+        //                 'ABA',
+        //                 ' A '
+        //         ],
+        //         {
+        //                 B: 'reliquary:nebulous_heart',
+        //                 A: 'createmetallurgy:gold_dust'
+        //         }
+        // )
 
         // Lovers
         event.shaped(

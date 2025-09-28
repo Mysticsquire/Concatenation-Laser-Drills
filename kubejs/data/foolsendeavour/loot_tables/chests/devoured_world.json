@@ -113,10 +113,6 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "dimdoors:entities/mask"
-				},
-				{
-					"type": "minecraft:loot_table",
 					"name": "elementalcraft:inject/entities/phantom"
 				},
 				{
@@ -1589,10 +1585,6 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "dimdoors:dispenser_potion_arrows"
-				},
-				{
-					"type": "minecraft:loot_table",
 					"name": "terralith:mage/treasure"
 				},
 				{
@@ -1801,10 +1793,6 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "dimdoors:dispenser_splash_potions"
-				},
-				{
-					"type": "minecraft:loot_table",
 					"name": "bloodmagic:chests/standard_dungeon/decent_smithy"
 				},
 				{
@@ -1998,10 +1986,6 @@
 				{
 					"type": "minecraft:loot_table",
 					"name": "irons_spellbooks:scroll_gen"
-				},
-				{
-					"type": "minecraft:loot_table",
-					"name": "dimdoors:removed_rift"
 				},
 				{
 					"type": "minecraft:loot_table",
@@ -2657,15 +2641,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "dimdoors:dungeon_chest"
-				},
-				{
-					"type": "minecraft:loot_table",
 					"name": "dungeons_arise_seven_seas:chests/corsair_corvette/corsair_corvette_normal"
-				},
-				{
-					"type": "minecraft:loot_table",
-					"name": "dimdoors:dispenser_projectiles"
 				},
 				{
 					"type": "minecraft:loot_table",
