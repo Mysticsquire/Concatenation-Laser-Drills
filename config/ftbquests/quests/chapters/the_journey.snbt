@@ -20896,6 +20896,7 @@
 		}
 		{
 			dependencies: ["0CC91D0458ACB827"]
+			description: [""]
 			id: "527DC00929B54279"
 			rewards: [{
 				id: "2ADC4CA9F0E9CEF7"
@@ -22822,7 +22823,13 @@
 			}]
 			tasks: [{
 				id: "7250ADDE2F87C37E"
-				item: "concatenationcore:occult_calling"
+				item: {
+					Count: 1
+					id: "concatenationcore:occult_calling"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			x: 5.5d
@@ -22875,6 +22882,11 @@
 		}
 		{
 			dependencies: ["6EB3E5667F8481FC"]
+			description: [
+				"The botany pot is a special plant-growing vessel. It can grow most plants faster in a smaller tailored environment, ignoring the tricky seasonal requirements most crops have. Ingenious witches have automated this process by fusing the pot with a hopper."
+				""
+				"It is unclear whether the botany pot actually possesses magical power. "
+			]
 			id: "5DC19F5250D0CF9D"
 			rewards: [{
 				id: "409D74CA46DCE953"
@@ -22882,11 +22894,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				advancement: "botanypots:husbandry/get_basic_pot"
-				criterion: ""
-				disable_toast: true
-				id: "5C4A751FB184393F"
-				type: "advancement"
+				id: "798538A8AF3E49FD"
+				item: "botanypots:terracotta_botany_pot"
+				type: "item"
 			}]
 			title: "Botany Pot"
 			x: 11.5d
