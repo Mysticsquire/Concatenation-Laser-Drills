@@ -337,6 +337,10 @@
 				},
 				{
 					"type": "minecraft:loot_table",
+					"name": "create_radar:blocks/auto_yaw_controller"
+				},
+				{
+					"type": "minecraft:loot_table",
 					"name": "mekanism:blocks/ultimate_induction_cell"
 				},
 				{
@@ -3125,6 +3129,10 @@
 				},
 				{
 					"type": "minecraft:loot_table",
+					"name": "create_radar:blocks/radar_dish_block"
+				},
+				{
+					"type": "minecraft:loot_table",
 					"name": "minecraft:blocks/purple_carpet"
 				},
 				{
@@ -4486,6 +4494,10 @@
 				{
 					"type": "minecraft:loot_table",
 					"name": "minecraft:blocks/sea_pickle"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "create_radar:blocks/id_block"
 				},
 				{
 					"type": "minecraft:loot_table",
@@ -5957,6 +5969,10 @@
 				},
 				{
 					"type": "minecraft:loot_table",
+					"name": "create_radar:blocks/creative_radar_plate"
+				},
+				{
+					"type": "minecraft:loot_table",
 					"name": "minecraft:blocks/gray_banner"
 				},
 				{
@@ -7158,6 +7174,10 @@
 				{
 					"type": "minecraft:loot_table",
 					"name": "ae2:blocks/chiseled_quartz_slab"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "create_radar:blocks/auto_pitch_controller"
 				},
 				{
 					"type": "minecraft:loot_table",
@@ -9933,6 +9953,10 @@
 				},
 				{
 					"type": "minecraft:loot_table",
+					"name": "create_radar:blocks/track_controller"
+				},
+				{
+					"type": "minecraft:loot_table",
 					"name": "createaddition:blocks/small_light_connector"
 				},
 				{
@@ -11581,6 +11605,10 @@
 				},
 				{
 					"type": "minecraft:loot_table",
+					"name": "foolsendeavour:chests/exalted_devoured_world"
+				},
+				{
+					"type": "minecraft:loot_table",
 					"name": "domum_ornamentum:blocks/orange_floating_carpet"
 				},
 				{
@@ -12222,6 +12250,10 @@
 				{
 					"type": "minecraft:loot_table",
 					"name": "hexerei:blocks/infused_fabric_carpet_ornate_slab"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "create_radar:blocks/radar_receiver_block"
 				},
 				{
 					"type": "minecraft:loot_table",
@@ -13590,6 +13622,10 @@
 				{
 					"type": "minecraft:loot_table",
 					"name": "botanypots:blocks/terracotta_botany_pot"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "create_radar:blocks/plane_radar"
 				},
 				{
 					"type": "minecraft:loot_table",
@@ -15481,6 +15517,10 @@
 				},
 				{
 					"type": "minecraft:loot_table",
+					"name": "create_radar:blocks/monitor"
+				},
+				{
+					"type": "minecraft:loot_table",
 					"name": "ae2:blocks/molecular_assembler"
 				},
 				{
@@ -16702,6 +16742,10 @@
 				{
 					"type": "minecraft:loot_table",
 					"name": "create_connected:blocks/freewheel_clutch"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "create_radar:blocks/radar_plate_block"
 				},
 				{
 					"type": "minecraft:loot_table",
@@ -21245,6 +21289,10 @@
 				},
 				{
 					"type": "minecraft:loot_table",
+					"name": "create_radar:blocks/radar_bearing"
+				},
+				{
+					"type": "minecraft:loot_table",
 					"name": "railways:blocks/white_locometal_smokebox"
 				},
 				{
@@ -21518,6 +21566,10 @@
 				{
 					"type": "minecraft:loot_table",
 					"name": "botanypots:blocks/blue_terracotta_hopper_botany_pot"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "create_radar:blocks/data_link"
 				},
 				{
 					"type": "minecraft:loot_table",

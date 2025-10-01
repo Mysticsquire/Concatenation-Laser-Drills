@@ -908,7 +908,7 @@ ServerEvents.recipes(event => {
                 }
         )
         event.shaped(
-                Item.of('concatenationcore:crushed_iron', 3),
+                Item.of('concatenationcore:crushed_iron', 2),
                 [
                         'AB ',
                         '   ',
@@ -920,7 +920,7 @@ ServerEvents.recipes(event => {
                 }
         ).damageIngredient('concatenationcore:breaking_tool')
         event.shaped(
-                Item.of('concatenationcore:crushed_zinc', 3),
+                Item.of('concatenationcore:crushed_zinc', 2),
                 [
                         'AB ',
                         '   ',
