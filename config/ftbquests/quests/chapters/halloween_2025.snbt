@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "halloween_2025"
+	group: "4AEECD5B848DA3A1"
+	id: "3CCC0B7FE48E71BD"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Halloween 2025"
+}

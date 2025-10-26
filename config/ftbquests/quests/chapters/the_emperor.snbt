@@ -13,8 +13,17 @@
 		id: "minecraft:emerald"
 	}
 	id: "33E55F6CA1DD2A6E"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "6FA6FC0C324FB172"
+		tasks: [{
+			id: "17E9CBFC5E7728E6"
+			item: "minecraft:oak_log"
+			type: "item"
+		}]
+		x: -0.5d
+		y: -0.5d
+	}]
 	title: "The Emperor"
 }
