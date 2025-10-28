@@ -757,7 +757,9 @@
 			dependencies: [
 				"6683DAA505FE70B2"
 				"4E39E9390716E9BA"
+				"0C64E78CC80EFAB5"
 			]
+			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
 			id: "063E19D727E344F1"
 			min_required_dependencies: 2
@@ -769,8 +771,8 @@
 				title: "Enter Purgatory"
 				type: "dimension"
 			}]
-			x: -6.875d
-			y: 5.0d
+			x: -7.875d
+			y: 5.5d
 		}
 		{
 			dependencies: ["2506899A5890205D"]
@@ -791,8 +793,8 @@
 				}
 			]
 			title: "Resonite"
-			x: -2.0d
-			y: 1.0d
+			x: -3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0A883B806B498A9C"]
@@ -810,8 +812,8 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -4.0d
-			y: 2.0d
+			x: -5.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["125252660A518C4F"]
@@ -821,8 +823,8 @@
 				item: "strangematter:stabilized_core"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 2.0d
+			x: -6.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["125252660A518C4F"]
@@ -832,8 +834,8 @@
 				item: "strangematter:resonant_circuit"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 1.0d
+			x: -6.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["125252660A518C4F"]
@@ -849,19 +851,19 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
-			y: 3.5d
+			x: -6.5d
+			y: 4.0d
 		}
 		{
-			dependencies: ["4A6D8F599B559457"]
+			dependencies: ["749ECE54FE00D79F"]
 			id: "7DDCF64BACE5F05A"
 			tasks: [{
 				id: "06F010036347E5A0"
 				item: "strangematter:reality_forge"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 1.5d
+			x: -9.5d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -874,8 +876,8 @@
 				item: "strangematter:research_machine"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 0.5d
+			x: -8.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["125252660A518C4F"]
@@ -913,8 +915,8 @@
 				}
 			]
 			title: "Anomalous Shards"
-			x: -2.5d
-			y: 2.5d
+			x: -3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["277D7A5F68DCD7CE"]
@@ -924,8 +926,8 @@
 				item: "strangematter:hoverboard"
 				type: "item"
 			}]
-			x: -9.5d
-			y: -0.5d
+			x: -11.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7DDCF64BACE5F05A"]
@@ -986,8 +988,8 @@
 				}
 			]
 			title: "Containment of Anomalies"
-			x: -9.0d
-			y: 1.0d
+			x: -11.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["277D7A5F68DCD7CE"]
@@ -997,8 +999,8 @@
 				item: "strangematter:graviton_hammer"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 0.5d
+			x: -12.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["277D7A5F68DCD7CE"]
@@ -1014,8 +1016,8 @@
 				}
 				type: "item"
 			}]
-			x: -10.5d
-			y: 2.0d
+			x: -12.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["125252660A518C4F"]
@@ -1032,8 +1034,105 @@
 				}
 				type: "item"
 			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7DDCF64BACE5F05A"]
+			id: "44B66416F9E8103D"
+			tasks: [{
+				id: "2E65A003903C8954"
+				item: "strangematter:resonance_condenser"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7DDCF64BACE5F05A"]
+			id: "7C8A82023B373DF9"
+			tasks: [{
+				id: "5C09D321F1EDEB82"
+				item: "strangematter:rift_stabilizer"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["622A83A7012371BE"]
+			id: "553C0E6637920EC0"
+			tasks: [{
+				id: "7C5DBAB6E9415DC4"
+				item: "strangematter:anomaly_resonator"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7DDCF64BACE5F05A"]
+			id: "6EB11A383E30AA74"
+			tasks: [
+				{
+					id: "6812F94B0C0F3FDB"
+					item: "strangematter:stasis_projector"
+					type: "item"
+				}
+				{
+					id: "50CB3C36F69687EB"
+					item: "strangematter:levitation_pad"
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1982249FC850C8A8"]
+			id: "339176B06391F198"
+			tasks: [{
+				advancement: "strangematter:the_researcher"
+				criterion: ""
+				id: "3DF92EE9F86E3397"
+				type: "advancement"
+			}]
+			title: "Research"
 			x: -3.5d
-			y: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["44B66416F9E8103D"]
+			id: "104FF0E35B945E17"
+			tasks: [{
+				id: "32A72DAF486B93BB"
+				item: "strangematter:resonant_conduit"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["063E19D727E344F1"]
+			id: "0F4EC612DEE02572"
+			tasks: [{
+				id: "1489880FF0C63732"
+				item: "perdition:blackened_resin"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["063E19D727E344F1"]
+			id: "744FAFE8E9E3222C"
+			tasks: [{
+				id: "63E99757572EC298"
+				item: "perdition:corruptite"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.5d
 		}
 	]
 	title: "Gate to Perdition"

@@ -1,7 +1,6 @@
 ServerEvents.recipes(event => {
 
     [
-        'strangematter:resonite_ingot',
         'strangematter:resonant_circuit',
         'strangematter:resonant_coil',
         'strangematter:research_tablet',
@@ -11,8 +10,13 @@ ServerEvents.recipes(event => {
     event.replaceInput(
         { output: 'strangematter:field_scanner' },
         'minecraft:redstone',
-        'concatenationcore:sticky_redstone'
+        'concatenationcore:stickyredstone'
     );
+
+    event.remove({ output: 'strangematter:resonite_ingot', type: 'minecraft:smelting' })
+    event.remove({ output: 'strangematter:resonite_ingot', type: 'minecraft:blasting' })
+    event.remove({ input: 'strangematter:raw_resonite', type: 'minecraft:smelting' })
+    event.remove({ input: 'strangematter:raw_resonite', type: 'minecraft:smelting' })
 
 
     // Prudence
@@ -188,5 +192,14 @@ ServerEvents.recipes(event => {
             B: 'perdition:corruptite'
         }
     )
+
+    event.recipes.minecraft.smelting(
+                'strangematter:resonite_ingot',
+                'strangematter:raw_resonite'
+        ).xp(0.1).cookingTime(100);
+        event.recipes.minecraft.blasting(
+                'strangematter:resonite_ingot',
+                'strangematter:raw_resonite'
+        ).xp(0.1).cookingTime(50);
 
 });

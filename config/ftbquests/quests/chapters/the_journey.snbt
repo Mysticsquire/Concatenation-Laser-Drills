@@ -28025,6 +28025,31 @@
 			x: 9.0d
 			y: 5.1d
 		}
+		{
+			dependencies: ["3D75596C95BC3EAB"]
+			id: "07D743EBC4DDD625"
+			size: 0.9d
+			tasks: [{
+				id: "368253639C744605"
+				item: "perdition:limbo_berries"
+				type: "item"
+			}]
+			x: 9.6d
+			y: 6.3d
+		}
+		{
+			dependencies: ["3B8127AF958727B0"]
+			hide_dependency_lines: true
+			id: "2E25CC35003C7E0E"
+			size: 1.15d
+			tasks: [{
+				id: "1ABF72EC883339F0"
+				item: "perdition:planeswalker_potion"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.5d
+		}
 	]
 	title: "The Journey"
 }
