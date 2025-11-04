@@ -493,4 +493,11 @@ ServerEvents.tags('item', event => {
     add('perdition:limbo_bush_growable', [
         'elementalcraft:pure_rock'
     ]);
+
+    add('forge:plates', [
+        'createdeco:netherite_sheet'
+    ]);
+    add('forge:plates/netherite', [
+        'createdeco:netherite_sheet'
+    ]);
 });
