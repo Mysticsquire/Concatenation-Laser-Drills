@@ -1,26 +1,6 @@
 {
   "favorites": [],
-  "lookup_history": [
-    "item:via_romana:charting_map",
-    "item:quarryplus:mover",
-    "item:the_deep_void:grimberry",
-    "item:hexerei:mandrake_flowers",
-    "item:minecraft:nether_wart_block",
-    "item:tconstruct:blood_slime_leaves",
-    "item:minecraft:redstone",
-    "item:thermal:silver_ingot",
-    "#item:forge:ingots/silver",
-    "item:concatenationcore:descran",
-    "item:perdition:silver_ingot",
-    "item:hexerei:selenite_shard",
-    "item:perdition:scintillating_dust",
-    "item:concatenationcore:woven_pearl",
-    "item:elementalcraft:inert_crystal",
-    "item:concatenationcore:laser_diode",
-    "item:perdition:resin",
-    "item:perdition:cut_dis_gem",
-    "item:perdition:blackened_resin"
-  ],
+  "lookup_history": [],
   "craft_history": [],
   "recipe_defaults": {
     "added": [
